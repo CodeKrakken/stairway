@@ -1,5 +1,5 @@
 {
-  "name": "@property-operations/validation",
+  "name": "@stairway/validation",
   "version": "0.1.0",
   "private": true,
   "types": "src/index.ts",
