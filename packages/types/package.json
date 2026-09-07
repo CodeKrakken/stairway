@@ -1,0 +1,13 @@
+{
+  "name": "@property-operations/types",
+  "version": "0.1.0",
+  "private": true,
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "echo \"No tests configured\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

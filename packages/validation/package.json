@@ -1,0 +1,16 @@
+{
+  "name": "@property-operations/validation",
+  "version": "0.1.0",
+  "private": true,
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "echo \"No tests configured\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
