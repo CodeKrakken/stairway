@@ -41,6 +41,11 @@ create table public.maintenance_requests (
   constraint maintenance_requests_priority_check check (priority in ('low', 'medium', 'high'))
 );
 
+alter table public.organisations enable row level security;
+alter table public.users enable row level security;
+alter table public.properties enable row level security;
+alter table public.maintenance_requests enable row level security;
+
 create index users_organisation_id_idx on public.users (organisation_id);
 create index properties_organisation_id_idx on public.properties (organisation_id);
 create index maintenance_requests_organisation_id_idx on public.maintenance_requests (organisation_id);
